@@ -26,7 +26,10 @@ for i in range(numdarts):
     fred.stamp()
     fred.goto(x,y)
     if fred.distance(0,0) <= 1:
+        fred.color("blue")
         count_in = count_in + 1 
+    else:
+        fred.color("red")
         
 print(100*count_in/numdarts,"% dos pontos foram detro do círculo")
 print(4*count_in/numdarts,"é o valor aproximado de pi")
