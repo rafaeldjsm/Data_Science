@@ -6,7 +6,7 @@ def tree(branchLen,t):
         t.pensize(branchLen/10)
         t.forward(branchLen)
         
-        ang = random.randint(15,45)
+        ang = random.randint(18,35)
         dec1 = random.randint(1,20)
         dec2 = random.randint(1,20)
         
@@ -34,7 +34,7 @@ def main():
     t.down()
     t.color("brown")
     t.speed(10)
-    tree(50,t)
+    tree(100,t)
     myWin.exitonclick()
 
 main()
