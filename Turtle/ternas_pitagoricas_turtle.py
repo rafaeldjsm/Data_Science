@@ -6,6 +6,7 @@ limit=int(input("Enter upper limit:"))
 t = turtle.Turtle()
 wn = turtle.Screen()
 wn.setworldcoordinates(0,0,limit,limit)
+wn.tracer(100)
 
 t.up()
 t.speed('fastest')
