@@ -1,18 +1,21 @@
 import turtle
+import math
+
 
 t = turtle.Turtle()
-wn = turtle.Screen()
+myWin = turtle.Screen()
 
-def ehprimo(n):
-    cond = True
-    for k in range(2,int(n**0.5)+1):
-        if n % k == 0:
-            cond = False
-    return cond
-        
+myWin.tracer(100)
 
-for k in range(100):
-    t.fd(k)
-    t.rt(18)
-    if ehprimo(k):
-        t.dot()
+myWin.setworldcoordinates(0,-1.1,1000,1.1)
+
+t.up()
+t.speed("fastest")
+
+for k in range(1000):
+    t.dot()
+    t.goto(k,math.sin(k))
+
+myWin.exitonclick()
+
+main()
