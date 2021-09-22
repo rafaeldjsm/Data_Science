@@ -12,11 +12,11 @@ def turtlecmd(t,turtle_program, turn_amount=45):
             t.fd(1)
         elif command == '+':     # Turn turtle clockwise without moving
             t.down()
-            t.left(turn_amount)
+            t.right(turn_amount)
             
         elif command == '-':     # Turn turtle counter-clockwise without moving
             t.down()
-            t.right(turn_amount)
+            t.left(turn_amount)
             
         elif command == '[':                       # Remember current state
             saved_states.append(t.pos())
@@ -35,22 +35,6 @@ def transform_multiple(sequence, transformations, iterations):
     for _ in range(iterations):
         sequence = transform_sequence(sequence, transformations)
     return sequence
-
-t = turtle.Turtle()
-wn = turtle.Screen()
-
-t.speed("fastest")
-wn.setworldcoordinates(-50,0,50,100)
-wn.tracer(100)
-
-t.left(90)
-#turtlecmd(t,transform_multiple('F', {'F': '+F+F--F+F'}, 5))
-
-t.speed("fastest")
-
-#turtlecmd(t,transform_multiple('F', {'F': 'FF[++F][-FF]'}, 5),22)
-
-turtlecmd(t,transform_multiple('A', {'F': 'FF', 'A': 'F[+AF-[A]--A][---A]'}, 5),22.5)
 
 
 
