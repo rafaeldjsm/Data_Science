@@ -4,7 +4,7 @@ def turtlecmd(t,turtle_program, turn_amount=45):
     saved_states = []
     head_states = []
     for command in turtle_program:
-        if command in "ABCDEFGHIJ":
+        if command in "ABCDEFGHIJXY":
             t.down()
             t.fd(1)
         elif command == "abcdefghij":
@@ -24,8 +24,10 @@ def turtlecmd(t,turtle_program, turn_amount=45):
 
         elif command == ']':                       # Return to previous state
             state = saved_states.pop()
+            t.up()
             t.goto(state)
             t.setheading(head_states.pop())
+            t.down()
             
 def transform_sequence(sequence, transformations):
     return ''.join(transformations.get(c, c) for c in sequence)
