@@ -1,7 +1,10 @@
 import turtle
 
 def seq3np1(n):
-    """ Print the 3n+1 sequence from n, terminating when it reaches 1."""
+    """
+    Indica o número de iterações até a sequencia 3n+1
+    até que a sequência convirja para 1.
+    """
     count = 1
     while n != 1:
         count+=1

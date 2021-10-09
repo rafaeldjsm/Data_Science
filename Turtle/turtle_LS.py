@@ -1,15 +1,15 @@
 import turtle
 
-def turtlecmd(t,turtle_program, turn_amount=45):
+def turtlecmd(t,turtle_program, turn_amount=45,step = 1):
     saved_states = []
     head_states = []
     for command in turtle_program:
         if command in "ABCDEFGHIJXY":
             t.down()
-            t.fd(1)
+            t.fd(step)
         elif command == "abcdefghij":
             t.up()
-            t.fd(1)
+            t.fd(step)
         elif command == '+':     # Turn turtle clockwise without moving
             t.down()
             t.right(turn_amount)
