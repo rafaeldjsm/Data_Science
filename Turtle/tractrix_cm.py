@@ -3,7 +3,7 @@ from math import *
 from tractrix import tract1, tract0
 
 
-curva = 180
+curva = 90
 
 # Dados do Cavalo
 lfrontal = 2.49 #   Largura frontal
@@ -12,18 +12,15 @@ d_eixo = 4 # Distância entre eixos
 ltraseira = 2.49 #   Largura traseira
 eixot = 0.91 # Recuo do eixo em relação a frente do veículo
 
-
-
-alfa = 25 #ângulo máximo de esterçamento : alfa (Graus)
-dx = 0.5 #Discretização, indicando o acrescimo de posição a cada iteração
-
+alfa = 25 # ângulo máximo de esterçamento : alfa (Graus)
+dx = 1 # Discretização, indicando o acrescimo de posição a cada iteração
+rmin = d_eixo / sin(radians(alfa)) # Raio mínimo da composição
+teta = 2*asin(dx/(2*rmin))# Angulo de giro pata a trajetória circular de menor raio definida
+print(rmin)
 
 t = turtle.Turtle()
-
 wn = turtle.Screen()
-
-wn.setworldcoordinates(-10,-5, 30,35)
-
+#wn.setworldcoordinates(-10,-5, 30,35)
 
 # Eixos e extremidades do cavalo
 
@@ -35,7 +32,6 @@ t2.goto(eixof,lfrontal/2)
 t3 = t.clone() # Roda dianteira esquerda
 t3.up()
 t3.goto(eixof,-lfrontal/2)
-
 
 t4 = t.clone() # Eixo traseiro
 t4.up()
@@ -68,17 +64,12 @@ for _ in range(10):
         k.fd(dx)
 
 
-
 alfa2 = 0
-#k = 0
-
-    
-
 while t.heading() <= curva:
-    if alfa2 < alfa :
+    if alfa2 < teta :
         alfa2 = alfa2+0.1
     else:
-        alfa2 = alfa
+        alfa2 = teta
  
     t.lt(alfa2)
     t.fd(dx)
