@@ -1,4 +1,7 @@
 def primeiro_lex(lst):
+    '''
+    Organiza as palavras em uma lista de forma ordenada pela ordem lexicográfica
+    '''
 
     men_nome = lst[0]
     for k in lst:
