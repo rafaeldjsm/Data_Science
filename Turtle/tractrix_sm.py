@@ -3,7 +3,7 @@ from math import *
 from tractrix import tract1, tract0
 
 
-curva = 150
+curva = 180
 
 # Dados do Cavalo
 lfrontal = 2.49 #   Largura frontal
@@ -24,7 +24,9 @@ dexr = 6 #Distância entre os eixos do reboque
 estsm = 15 # Angulo máximo de Esterçamento semi-reboque/CM (Graus)
 
 alfa = 25 #ângulo máximo de esterçamento : alfa (Graus)
-dx = 1 #Discretização, indicando o acrescimo de posição a cada iteração
+dx = 1 # Discretização, indicando o acrescimo de posição a cada iteração
+rmin = d_eixo / sin(radians(alfa)) # Raio mínimo da composição
+teta = degrees(2*asin(dx/(2*rmin)))# Angulo de giro pata a trajetória circular de menor raio definida
 
 
 t = turtle.Turtle()
@@ -103,34 +105,23 @@ colors = ["black","green","green","black","red","red"]*2
 c = 0
 
 
-for k in [t,t2,t3,t4,t5,t6,t7,t8,t9,t10,t11,t12]:
-    k.color(colors[c])
-    c = c + 1
+for k,j in zip([t,t2,t3,t4,t5,t6,t7,t8,t9,t10,t11,t12],colors):
+    k.color(j)
     k.speed("fastest")
     k.down()
 
 t7.up()
 t7.ht()
 
-for _ in range(10):
-    for k in [t,t2,t3,t4,t5,t6,t7,t8,t9,t10,t11,t12]:
-        k.fd(dx)
-
-
 
 alfa2 = 0
-k = 0
-a = 92
-b = a
-
-
 while t.heading() <= curva:
 
     if t.distance(t10) >= md110-dx: #Verificando o exterçamento máximo do Semireboque
-        if alfa2 < alfa :
+        if alfa2 < teta :
             alfa2 = alfa2+0.1
         else:
-            alfa2 = alfa
+            alfa2 = teta
         t.lt(alfa2)
     else:
         print("estercado")
