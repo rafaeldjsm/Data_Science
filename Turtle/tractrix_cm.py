@@ -3,7 +3,7 @@ from math import *
 from tractrix import tract1, tract0
 
 
-curva = 90
+curva = 180
 
 # Dados do Cavalo
 lfrontal = 2.49 #   Largura frontal
@@ -15,12 +15,11 @@ eixot = 0.91 # Recuo do eixo em relação a frente do veículo
 alfa = 25 # ângulo máximo de esterçamento : alfa (Graus)
 dx = 1 # Discretização, indicando o acrescimo de posição a cada iteração
 rmin = d_eixo / sin(radians(alfa)) # Raio mínimo da composição
-teta = 2*asin(dx/(2*rmin))# Angulo de giro pata a trajetória circular de menor raio definida
-print(rmin)
+teta = degrees(2*asin(dx/(2*rmin)))# Angulo de giro pata a trajetória circular de menor raio definida
 
 t = turtle.Turtle()
 wn = turtle.Screen()
-#wn.setworldcoordinates(-10,-5, 30,35)
+wn.setworldcoordinates(-10,-5, 50,55)
 
 # Eixos e extremidades do cavalo
 
@@ -49,12 +48,10 @@ t6.goto(-d_eixo-eixot,ltraseira/2)
 
 
 colors = ["black","green","green"]*3
-c = 0
 
 
-for k in [t,t2,t3,t4,t5,t6]:
-    k.color(colors[c])
-    c = c + 1
+for k,j in zip([t,t2,t3,t4,t5,t6],colors):
+    k.color(j)
     k.speed("fastest")
     k.down()
 
