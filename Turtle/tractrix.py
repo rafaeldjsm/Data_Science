@@ -64,23 +64,25 @@ if __name__ == "__main__":
 
     t = turtle.Turtle()
 
+
     wn = turtle.Screen()
-    wn.setworldcoordinates(0,0, 65,200)
-    #wn.screensize(400,60)
+    wn.setworldcoordinates(0,0,210,1200)
+    wn.tracer(100)
 
-    l = 50 #Comprimento da barra ligando t a t2
+    l = 200 #Comprimento da barra ligando t a t2
 
-
+    t.pensize(4)
     t2 = t.clone()
     t2.up()
     t2.goto(l,0)
     t2.down()
     t3 = t2.clone()
+    t3.pensize(2) 
 
     t.lt(90)
     t.speed("fastest")
-    for _ in range(l*6):
-        t.fd(1)
+    for _ in range(2*l):
+        t.fd(l/50)
         tract0(t,t2,l)
 
 
