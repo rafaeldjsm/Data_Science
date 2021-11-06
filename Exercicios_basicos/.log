@@ -6379,3 +6379,69 @@
 2021-11-01 21:12:29,295 [18464] DEBUG    root:195: [JupyterRequire] Configuration requested: {'paths': {}, 'shim': None}
 2021-11-01 21:12:29,297 [18464] INFO     root:271: [JupyterRequire] Comms have been successfully initialized.
 2021-11-01 21:12:29,297 [18464] DEBUG    root:97: [JupyterRequire] Registering comm targets.
+2021-11-05 21:11:08,230 [10212] DEBUG    root:75: [JupyterRequire] Loading Jupyter Require extension.
+2021-11-05 21:11:08,230 [10212] DEBUG    root:93: [JupyterRequire] Initializing comms.
+2021-11-05 21:11:08,231 [10212] INFO     root:247: [JupyterRequire] Initializing comms.
+2021-11-05 21:11:08,241 [10212] DEBUG    root:195: [JupyterRequire] Configuration requested: {'paths': {}, 'shim': None}
+2021-11-05 21:11:08,241 [10212] INFO     root:271: [JupyterRequire] Comms have been successfully initialized.
+2021-11-05 21:11:08,242 [10212] DEBUG    root:97: [JupyterRequire] Registering comm targets.
+2021-11-05 21:11:08,793 [10212] DEBUG    RefactoringTool:272: [JupyterRequire] Adding transformation: import
+2021-11-05 21:11:08,796 [10212] DEBUG    RefactoringTool:272: [JupyterRequire] Adding transformation: next
+2021-11-05 21:11:08,797 [10212] DEBUG    RefactoringTool:272: [JupyterRequire] Adding transformation: operator
+2021-11-05 21:11:08,801 [10212] DEBUG    RefactoringTool:272: [JupyterRequire] Adding transformation: paren
+2021-11-05 21:11:08,802 [10212] DEBUG    RefactoringTool:272: [JupyterRequire] Adding transformation: raw_input
+2021-11-05 21:11:08,804 [10212] DEBUG    RefactoringTool:272: [JupyterRequire] Adding transformation: filter
+2021-11-05 21:11:08,805 [10212] DEBUG    RefactoringTool:272: [JupyterRequire] Adding transformation: execfile
+2021-11-05 21:11:08,806 [10212] DEBUG    RefactoringTool:272: [JupyterRequire] Adding transformation: map
+2021-11-05 21:11:08,807 [10212] DEBUG    RefactoringTool:272: [JupyterRequire] Adding transformation: repr
+2021-11-05 21:11:08,808 [10212] DEBUG    RefactoringTool:272: [JupyterRequire] Adding transformation: xrange
+2021-11-05 21:11:08,808 [10212] DEBUG    RefactoringTool:272: [JupyterRequire] Adding transformation: input
+2021-11-05 21:11:08,809 [10212] DEBUG    RefactoringTool:272: [JupyterRequire] Adding transformation: xreadlines
+2021-11-05 21:11:08,810 [10212] DEBUG    RefactoringTool:272: [JupyterRequire] Adding transformation: raise
+2021-11-05 21:11:08,810 [10212] INFO     RefactoringTool:267: [JupyterRequire] Skipping optional fixer: buffer
+2021-11-05 21:11:08,811 [10212] DEBUG    RefactoringTool:272: [JupyterRequire] Adding transformation: itertools_imports
+2021-11-05 21:11:08,812 [10212] DEBUG    RefactoringTool:272: [JupyterRequire] Adding transformation: reload
+2021-11-05 21:11:08,813 [10212] DEBUG    RefactoringTool:272: [JupyterRequire] Adding transformation: exitfunc
+2021-11-05 21:11:08,814 [10212] DEBUG    RefactoringTool:272: [JupyterRequire] Adding transformation: asserts
+2021-11-05 21:11:08,814 [10212] DEBUG    RefactoringTool:272: [JupyterRequire] Adding transformation: ne
+2021-11-05 21:11:08,816 [10212] DEBUG    RefactoringTool:272: [JupyterRequire] Adding transformation: sys_exc
+2021-11-05 21:11:08,818 [10212] DEBUG    RefactoringTool:272: [JupyterRequire] Adding transformation: itertools
+2021-11-05 21:11:08,822 [10212] INFO     RefactoringTool:267: [JupyterRequire] Skipping optional fixer: idioms
+2021-11-05 21:11:08,825 [10212] DEBUG    RefactoringTool:272: [JupyterRequire] Adding transformation: imports2
+2021-11-05 21:11:08,826 [10212] INFO     RefactoringTool:267: [JupyterRequire] Skipping optional fixer: set_literal
+2021-11-05 21:11:08,826 [10212] DEBUG    RefactoringTool:272: [JupyterRequire] Adding transformation: long
+2021-11-05 21:11:08,872 [10212] DEBUG    RefactoringTool:272: [JupyterRequire] Adding transformation: types
+2021-11-05 21:11:08,874 [10212] DEBUG    RefactoringTool:272: [JupyterRequire] Adding transformation: reduce
+2021-11-05 21:11:08,874 [10212] DEBUG    RefactoringTool:272: [JupyterRequire] Adding transformation: future
+2021-11-05 21:11:08,875 [10212] DEBUG    RefactoringTool:272: [JupyterRequire] Adding transformation: basestring
+2021-11-05 21:11:08,875 [10212] DEBUG    RefactoringTool:272: [JupyterRequire] Adding transformation: nonzero
+2021-11-05 21:11:08,876 [10212] DEBUG    RefactoringTool:272: [JupyterRequire] Adding transformation: standarderror
+2021-11-05 21:11:08,877 [10212] DEBUG    RefactoringTool:272: [JupyterRequire] Adding transformation: dict
+2021-11-05 21:11:08,877 [10212] DEBUG    RefactoringTool:272: [JupyterRequire] Adding transformation: renames
+2021-11-05 21:11:08,878 [10212] DEBUG    RefactoringTool:272: [JupyterRequire] Adding transformation: zip
+2021-11-05 21:11:08,879 [10212] DEBUG    RefactoringTool:272: [JupyterRequire] Adding transformation: tuple_params
+2021-11-05 21:11:08,880 [10212] DEBUG    RefactoringTool:272: [JupyterRequire] Adding transformation: intern
+2021-11-05 21:11:08,882 [10212] DEBUG    RefactoringTool:272: [JupyterRequire] Adding transformation: isinstance
+2021-11-05 21:11:08,885 [10212] DEBUG    RefactoringTool:272: [JupyterRequire] Adding transformation: has_key
+2021-11-05 21:11:08,886 [10212] DEBUG    RefactoringTool:272: [JupyterRequire] Adding transformation: funcattrs
+2021-11-05 21:11:08,905 [10212] DEBUG    RefactoringTool:272: [JupyterRequire] Adding transformation: urllib
+2021-11-05 21:11:08,906 [10212] DEBUG    RefactoringTool:272: [JupyterRequire] Adding transformation: metaclass
+2021-11-05 21:11:08,906 [10212] DEBUG    RefactoringTool:272: [JupyterRequire] Adding transformation: numliterals
+2021-11-05 21:11:08,907 [10212] DEBUG    RefactoringTool:272: [JupyterRequire] Adding transformation: print
+2021-11-05 21:11:08,907 [10212] DEBUG    RefactoringTool:272: [JupyterRequire] Adding transformation: methodattrs
+2021-11-05 21:11:08,926 [10212] DEBUG    RefactoringTool:272: [JupyterRequire] Adding transformation: imports
+2021-11-05 21:11:08,927 [10212] DEBUG    RefactoringTool:272: [JupyterRequire] Adding transformation: throw
+2021-11-05 21:11:08,928 [10212] DEBUG    RefactoringTool:272: [JupyterRequire] Adding transformation: apply
+2021-11-05 21:11:08,929 [10212] DEBUG    RefactoringTool:272: [JupyterRequire] Adding transformation: except
+2021-11-05 21:11:08,930 [10212] DEBUG    RefactoringTool:272: [JupyterRequire] Adding transformation: unicode
+2021-11-05 21:11:08,931 [10212] INFO     RefactoringTool:267: [JupyterRequire] Skipping optional fixer: ws_comma
+2021-11-05 21:11:08,934 [10212] DEBUG    RefactoringTool:272: [JupyterRequire] Adding transformation: exec
+2021-11-05 21:11:08,935 [10212] DEBUG    RefactoringTool:272: [JupyterRequire] Adding transformation: getcwdu
+2021-11-05 21:11:09,006 [10212] DEBUG    root:75: [JupyterRequire] Loading Jupyter Require extension.
+2021-11-05 21:11:09,006 [10212] DEBUG    root:93: [JupyterRequire] Initializing comms.
+2021-11-05 21:11:09,007 [10212] INFO     root:247: [JupyterRequire] Initializing comms.
+2021-11-05 21:11:09,009 [10212] DEBUG    root:195: [JupyterRequire] Configuration requested: {'paths': {}, 'shim': None}
+2021-11-05 21:11:09,009 [10212] INFO     root:271: [JupyterRequire] Comms have been successfully initialized.
+2021-11-05 21:11:09,010 [10212] DEBUG    root:97: [JupyterRequire] Registering comm targets.
+2021-11-05 21:12:14,891 [10212] DEBUG    parso.cache:152: [JupyterRequire] pickle loaded: c:\python39\lib\site-packages\jedi\third_party\typeshed\stdlib\2and3\builtins.pyi
+2021-11-05 21:12:14,977 [10212] DEBUG    parso.cache:152: [JupyterRequire] pickle loaded: c:\python39\lib\site-packages\jedi\third_party\typeshed\stdlib\3\sys.pyi
