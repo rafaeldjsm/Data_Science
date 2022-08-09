@@ -4,7 +4,7 @@ Notebook created for the Datacamp competition on : [Datacamp Competition](https:
 
 
 <p align="center">
-  <img width="460" height="300" src="[http://www.fillmurray.com/460/300](https://github.com/rafaeldjsm/Data_Science/blob/master/k-prototypes_for_customer_segmentation/venn_join.png)">
+  <img width="460" height="300" src="[https://github.com/rafaeldjsm/Data_Science/blob/master/k-prototypes_for_customer_segmentation/venn_join.png]">
 </p>
 
 ----------
