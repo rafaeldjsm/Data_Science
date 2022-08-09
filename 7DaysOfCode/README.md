@@ -12,6 +12,8 @@ Durante os 7 Days de Ciência de Dados você vai passar por todo ciclo de coleta
 
 The same file with cleaning and preparation also includes Storytelling
 
-# # Day 2/7 [Forecasting](https://github.com/rafaeldjsm/Data_Science/blob/master/7DaysOfCode/7DaysOfCode_d3_CEAPS.ipynb)
+# Day 2/7
+
+## [Forecasting](https://github.com/rafaeldjsm/Data_Science/blob/master/7DaysOfCode/7DaysOfCode_d3_CEAPS.ipynb)
 
 Due to the periodic appearance of the series and due to the observed high correlation in the 12 months lag, we will apply the ARMA model (Autoregressive-moving-average model)
