@@ -1,5 +1,5 @@
 <p align="center">
-  <img width="460" height="460" src="https://competitions-app.datacamp.com/1.8.1/medical-device-customers/medical-device-customers.jpg">
+  <img width="460" height="200" src="https://competitions-app.datacamp.com/1.8.1/medical-device-customers/medical-device-customers.jpg">
 </p>
 
 # Notebook created for the Datacamp competition on : [Datacamp Competition](https://app.datacamp.com/workspace/w/d4f9e3b2-d586-4b40-b490-44cc9af3c53b)
