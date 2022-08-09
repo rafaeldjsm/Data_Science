@@ -7,7 +7,7 @@ Durante os 7 Days de Ciência de Dados você vai passar por todo ciclo de coleta
 
 ## Day 1/7:
 
-### [Data Cleaning and Preparation](https://github.com/rafaeldjsm/Data_Science/blob/master/7DaysOfCode/7DaysOfCode_d1_CEAPS.ipynb)
+### :broom: [Data Cleaning and Preparation](https://github.com/rafaeldjsm/Data_Science/blob/master/7DaysOfCode/7DaysOfCode_d1_CEAPS.ipynb)
 
 ## Day 2/7
 
