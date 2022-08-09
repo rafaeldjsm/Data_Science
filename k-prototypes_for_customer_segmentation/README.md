@@ -2,6 +2,7 @@
 
 Notebook created for the Datacamp competition on : [Datacamp Competition](https://app.datacamp.com/workspace/w/d4f9e3b2-d586-4b40-b490-44cc9af3c53b)
 
+![](https://github.com/rafaeldjsm/Data_Science/blob/master/k-prototypes_for_customer_segmentation/venn_join.png)
 
 # Can you find a better way to segment your customers?
 
@@ -29,4 +30,18 @@ One of the conventional clustering methods commonly used in clustering technique
 k-modes is used for clustering categorical variables. It defines clusters based on the number of matching categories between data points. It defines clusters based on the number of matching categories between the data points and the distances/inertias/cost function c are calculated by dissimilarity.
 
 Facing these problems, Huang proposed an algorithm called K-Prototype which is created in order to handle clustering algorithms with the mixed data types (numerical and categorical variables). K-Prototype is a clustering method based on partitioning. Its algorithm is an improvement of the K-Means and K-Mode clustering algorithm to handle clustering with the mixed data types.
+
+Referencec:
+[The K-modes algorithm for clustering](https://github.com/nicodv/kmodes)
+[HUANG97] Huang, Z.: Clustering large data sets with mixed numeric and
+   categorical values, Proceedings of the First Pacific Asia Knowledge
+   Discovery and Data Mining Conference, Singapore, pp. 21-34, 1997.
+
+[HUANG98] Huang, Z.: Extensions to the k-modes algorithm for clustering
+   large data sets with categorical values, Data Mining and Knowledge
+   Discovery 2(3), pp. 283-304, 1998.
+
+[CAO09] Cao, F., Liang, J, Bai, L.: A new initialization method for
+   categorical data clustering, Expert Systems with Applications 36(7),
+   pp. 10223-10228., 2009.
 
