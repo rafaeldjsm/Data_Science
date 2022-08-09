@@ -8,7 +8,7 @@
 </p>
 
 ----------
-# [Github Notebook](https://github.com/rafaeldjsm/Data_Science/blob/master/k-prototypes_for_customer_segmentation/k-prototypes_for_customer_segmentation.ipynb)
+# <center> [Github Notebook](https://github.com/rafaeldjsm/Data_Science/blob/master/k-prototypes_for_customer_segmentation/k-prototypes_for_customer_segmentation.ipynb) </center>
 ----------
 
 # Can you find a better way to segment your customers?
