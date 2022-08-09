@@ -1,3 +1,6 @@
+Notebook created for the Datacamp competition on : [Datacamp Competition](https://app.datacamp.com/workspace/w/d4f9e3b2-d586-4b40-b490-44cc9af3c53b)
+
+
 # Can you find a better way to segment your customers?
 
 ## 📖 Background
@@ -17,3 +20,6 @@ Your team wants to use a data-centric approach to segmenting doctors to improve 
 5. Identify which features impact the new segmentation strategy the most.
 
 **This notebook aims to analyze the content of the customer database, indicating the main metrics that can be effective for the best marketing targeting. Based on this analysis, I develop a model that allows the clustering of doctors according to their intention to execute purchase orders, as well as their level of satisfaction, complaints and reworks.**
+
+
+It defines clusters based on the number of matching categories between the data points and the distances/inertias/cost function c are calculated by dissimilarity.
