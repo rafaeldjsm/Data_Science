@@ -1,3 +1,5 @@
+![](https://competitions-app.datacamp.com/1.8.1/medical-device-customers/medical-device-customers.jpg)
+
 Notebook created for the Datacamp competition on : [Datacamp Competition](https://app.datacamp.com/workspace/w/d4f9e3b2-d586-4b40-b490-44cc9af3c53b)
 
 
