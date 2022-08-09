@@ -12,7 +12,7 @@ Durante os 7 Days de Ciência de Dados você vai passar por todo ciclo de coleta
 
 The same file with cleaning and preparation also includes Storytelling
 
-# Day 2/7
+# Day 3/7
 
 ## [Forecasting](https://github.com/rafaeldjsm/Data_Science/blob/master/7DaysOfCode/7DaysOfCode_d3_CEAPS.ipynb)
 
