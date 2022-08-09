@@ -11,7 +11,7 @@ Durante os 7 Days de Ciência de Dados você vai passar por todo ciclo de coleta
 
 ## Day 2/7
 
-### [👩🏽‍💻 Data Visualization & Storytelling](https://github.com/rafaeldjsm/Data_Science/blob/master/7DaysOfCode/7DaysOfCode_d1_CEAPS.ipynb)
+### [👩🏽‍💻 :monocle_face: Data Visualization & Storytelling](https://github.com/rafaeldjsm/Data_Science/blob/master/7DaysOfCode/7DaysOfCode_d1_CEAPS.ipynb)
 
 The same file with cleaning and preparation also includes Storytelling
 
