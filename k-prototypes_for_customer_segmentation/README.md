@@ -31,15 +31,15 @@ k-modes is used for clustering categorical variables. It defines clusters based 
 
 Facing these problems, Huang proposed an algorithm called K-Prototype which is created in order to handle clustering algorithms with the mixed data types (numerical and categorical variables). K-Prototype is a clustering method based on partitioning. Its algorithm is an improvement of the K-Means and K-Mode clustering algorithm to handle clustering with the mixed data types.
 
-Referencec:
-[The K-modes algorithm for clustering](https://github.com/nicodv/kmodes)
+References:<br>
+[The K-modes algorithm for clustering](https://github.com/nicodv/kmodes)<br>
 [HUANG97] Huang, Z.: Clustering large data sets with mixed numeric and
    categorical values, Proceedings of the First Pacific Asia Knowledge
-   Discovery and Data Mining Conference, Singapore, pp. 21-34, 1997.
+   Discovery and Data Mining Conference, Singapore, pp. 21-34, 1997.<br>
 
 [HUANG98] Huang, Z.: Extensions to the k-modes algorithm for clustering
    large data sets with categorical values, Data Mining and Knowledge
-   Discovery 2(3), pp. 283-304, 1998.
+   Discovery 2(3), pp. 283-304, 1998.<br>
 
 [CAO09] Cao, F., Liang, J, Bai, L.: A new initialization method for
    categorical data clustering, Expert Systems with Applications 36(7),
