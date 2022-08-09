@@ -7,7 +7,7 @@
   <img width="460" height="460" src="https://github.com/rafaeldjsm/Data_Science/blob/master/k-prototypes_for_customer_segmentation/venn_join.png">
 </p>
 
-----------
+:----------:
 # [Github Notebook](https://github.com/rafaeldjsm/Data_Science/blob/master/k-prototypes_for_customer_segmentation/k-prototypes_for_customer_segmentation.ipynb) 
 
 
