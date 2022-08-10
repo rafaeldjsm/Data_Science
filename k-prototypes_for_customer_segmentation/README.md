@@ -34,7 +34,7 @@ Your team wants to use a data-centric approach to segmenting doctors to improve 
 
 **This notebook aims to analyze the content of the customer database, indicating the main metrics that can be effective for the best marketing targeting. Based on this analysis, I develop a model that allows the clustering of doctors according to their intention to execute purchase orders, as well as their level of satisfaction, complaints and reworks.**
 
-As we have many categorical variables, we will use the k-prototypes method.
+As we have many categorical variables, we will use the k-prototypes method.<br>
 One of the conventional clustering methods commonly used in clustering techniques and efficiently used for large data is the K-Means algorithm. However, its method is not good and suitable for data that contains categorical variables. This problem happens when the cost function in K-Means is calculated using the Euclidian distance that is only suitable for numerical data. While K-Mode is only suitable for categorical data only, not mixed data types.
 
 k-modes is used for clustering categorical variables. It defines clusters based on the number of matching categories between data points. It defines clusters based on the number of matching categories between the data points and the distances/inertias/cost function c are calculated by dissimilarity.
