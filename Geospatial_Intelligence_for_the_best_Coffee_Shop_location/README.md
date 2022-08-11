@@ -55,7 +55,7 @@ _Census information from the [United States Census Bureau](https://www.census.go
 
 > Note that there are only three out of the 9 best neighborhoods in common when considering the two main criteria, in these neighborhoods 2 have a good density of starbusks stores and only one with a low density, as the amount of starbucks is given only as a reference, we will adopt the three neighborhoods found above.
 
-<table border="1" class="marginStyle" align="center">
+<table border="1" align="center">
   <thead>
     <tr style="text-align: right;">
       <th></th>
