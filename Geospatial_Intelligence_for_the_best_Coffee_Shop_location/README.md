@@ -41,6 +41,16 @@ _Census information from the [United States Census Bureau](https://www.census.go
 
 # 3 Final Considerations
 
+<p align="center">
+  <img src="https://github.com/rafaeldjsm/Data_Science/blob/master/Geospatial_Intelligence_for_the_best_Coffee_Shop_location/data/density_100k.png" alt="Sublime's custom image"/>
+</p>
+
+
+<p align="center">
+  <img src="https://github.com/rafaeldjsm/Data_Science/blob/master/Geospatial_Intelligence_for_the_best_Coffee_Shop_location/data/kde_geoplot.png" alt="Sublime's custom image"/>
+</p>
+
+
 ## First, let's check the neighborhoods in common among the top nine in each income and age criteria.
 
 > Note that there are only three out of the 9 best neighborhoods in common when considering the two main criteria, in these neighborhoods 2 have a good density of starbusks stores and only one with a low density, as the amount of starbucks is given only as a reference, we will adopt the three neighborhoods found above.
