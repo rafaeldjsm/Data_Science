@@ -55,7 +55,56 @@ _Census information from the [United States Census Bureau](https://www.census.go
 
 > Note that there are only three out of the 9 best neighborhoods in common when considering the two main criteria, in these neighborhoods 2 have a good density of starbusks stores and only one with a low density, as the amount of starbucks is given only as a reference, we will adopt the three neighborhoods found above.
 
-<table border="1" class="marginStyle" align="center">\n  <thead>\n    <tr style="text-align: right;">\n      <th></th>\n      <th>NBHD_NAME</th>\n      <th>AREA</th>\n      <th>Count_Starbucks</th>\n      <th>Starbucks_density</th>\n      <th>AGE_18_TO_34</th>\n      <th>NUM_HHLD_100K+</th>\n      <th>AGE_18_TO_34_density</th>\n      <th>NUM_HHLD_100K+_density</th>\n    </tr>\n  </thead>\n  <tbody>\n    <tr>\n      <th>0</th>\n      <td>Civic Center</td>\n      <td>0.791594</td>\n      <td>5.0</td>\n      <td>6.316370</td>\n      <td>2012.0</td>\n      <td>1519.0</td>\n      <td>2541.707311</td>\n      <td>1918.913223</td>\n    </tr>\n    <tr>\n      <th>1</th>\n      <td>Cheesman Park</td>\n      <td>1.371804</td>\n      <td>3.0</td>\n      <td>2.186902</td>\n      <td>5961.0</td>\n      <td>1680.0</td>\n      <td>4345.373953</td>\n      <td>1224.665029</td>\n    </tr>\n    <tr>\n      <th>2</th>\n      <td>North Capitol Hill</td>\n      <td>0.918346</td>\n      <td>0.0</td>\n      <td>0.000000</td>\n      <td>3238.0</td>\n      <td>1010.0</td>\n      <td>3525.905913</td>\n      <td>1099.803883</td>\n    </tr>\n  </tbody>\n</table>
+<table border="1" class="marginStyle" align="center">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>NBHD_NAME</th>
+      <th>AREA</th>
+      <th>Count_Starbucks</th>
+      <th>Starbucks_density</th>
+      <th>AGE_18_TO_34</th>
+      <th>NUM_HHLD_100K+</th>
+      <th>AGE_18_TO_34_density</th>
+      <th>NUM_HHLD_100K+_density</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>Civic Center</td>
+      <td>0.791594</td>
+      <td>5.0</td>
+      <td>6.316370</td>
+      <td>2012.0</td>
+      <td>1519.0</td>
+      <td>2541.707311</td>
+      <td>1918.913223</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>Cheesman Park</td>
+      <td>1.371804</td>
+      <td>3.0</td>
+      <td>2.186902</td>
+      <td>5961.0</td>
+      <td>1680.0</td>
+      <td>4345.373953</td>
+      <td>1224.665029</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>North Capitol Hill</td>
+      <td>0.918346</td>
+      <td>0.0</td>
+      <td>0.000000</td>
+      <td>3238.0</td>
+      <td>1010.0</td>
+      <td>3525.905913</td>
+      <td>1099.803883</td>
+    </tr>
+  </tbody>
+</table>
 
 - Civic Center
 - Cheesman Park
