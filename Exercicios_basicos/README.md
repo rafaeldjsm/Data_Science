@@ -1,4 +1,4 @@
-# Exercíios Básicos executados no aprendizado de Python.
+# Exercícios Básicos executados no aprendizado de Python.
 
 ## [Jogo Nim](https://github.com/rafaeldjsm/Data_Science/blob/8e3eba2e4d9693338c3e567ae801e01f8ffb51ad/Exercicios_basicos/jogo_nim.py)
 
