@@ -36,26 +36,22 @@ def campeonato(num_part):
 #########################################################
 
 def usuario_escolhe_jogada(n,m):
-
-   
     pj = int(input("\nQuantas peças você vai tirar? "))
-
-    if pj <= min(m,n) and pj > 0:
-        n2 = n - pj
-        
-        if pj == 1:
-            print("\nVocê tirou uma peça.")
-        else:
-            print("\nVoce tirou %d peças."%pj)
-            
-        if n2 == 0:
-            print("Fim do jogo! Você ganhou!")
-            
-        return pj
-      
-    else:
+    
+    while pj > min(m,n) or pj <= 0:
         print("\nOops! Jogada inválida! Tente de novo.")
-        return usuario_escolhe_jogada(n,m)
+        pj = int(input("\nQuantas peças você vai tirar? "))
+
+    n2 = n - pj     
+    if pj == 1:
+        print("\nVocê tirou uma peça.")
+    else:
+        print(f"\nVoce tirou {pj} peças.")   
+    if n2 == 0:
+        print("Fim do jogo! Você ganhou!")
+
+    return pj
+
     
 
 #########################################################
