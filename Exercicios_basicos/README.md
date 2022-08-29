@@ -64,7 +64,7 @@ Read , the year to test.
 
 Constraints
 
-$ 1900 \leqslant year < \leqslant 10^5 $
+\latex {$ 1900 \leqslant year < \leqslant 10^5 $}
 
 Output Format
 
