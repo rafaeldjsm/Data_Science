@@ -64,7 +64,7 @@ Read , the year to test.
 
 Constraints
 
-$'1900 \leq year \leq 10^5 '$
+$'1900 \leq year \leq 10^{5} '$
 
 
 Output Format
